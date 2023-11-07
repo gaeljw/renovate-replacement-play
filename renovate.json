@@ -8,9 +8,9 @@
     "packageRules": [
       {
         "matchPackageNames": [
-          "com.typesafe.play:play-json"
+          "com.typesafe.play"
         ],
-        "replacementName": "org.playframework:play-json",
+        "replacementName": "org.playframework",
         "replacementVersion": "3.0.0"
       },
       {
