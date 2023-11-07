@@ -1,0 +1,24 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "config:recommended"
+    ],
+    "dependencyDashboard": true,
+    "dependencyDashboardAutoclose": true,
+    "packageRules": [
+      {
+        "matchPackageNames": [
+          "com.typesafe.play:play-json"
+        ],
+        "replacementName": "org.playframework:play-json",
+        "replacementVersion": "3.0.0"
+      },
+      {
+        "matchPackageNames": [
+          "com.typesafe.play:sbt-plugin"
+        ],
+        "replacementName": "org.playframework:sbt-plugin",
+        "replacementVersion": "3.0.0"
+      }
+    ]
+  }  
