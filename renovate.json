@@ -11,7 +11,7 @@
         "matchPackageNames": [
           "com.typesafe.play:play-json"
         ],
-        "replacementNameTemplate": "{{{replace 'com\\.typesafe\\.play' 'org\\.playframework' packageName}}}",
+        "replacementNameTemplate": "test/{{{packageName}}}",
         "replacementVersion": "3.0.0"
       },
       {
