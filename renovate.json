@@ -9,10 +9,11 @@
     "packageRules": [
       {
         "matchPackageNames": [
-          "com.typesafe.play:play-json"
+          "(?<depName>com.typesafe.play):play-json"
         ],
-        "replacementNameTemplate": "test/{{{packageName}}}",
-        "replacementVersion": "3.0.0"
+        "replacementNameTemplate": "org.playframework",
+        "replacementVersion": "3.0.0",
+        "autoReplaceStringTemplate": "pouet {{{depName}}}"
       },
       {
         "matchPackageNames": [
