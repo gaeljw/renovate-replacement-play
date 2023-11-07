@@ -5,6 +5,7 @@
     ],
     "dependencyDashboard": true,
     "dependencyDashboardAutoclose": true,
+    "prHourlyLimit": 100,
     "packageRules": [
       {
         "matchPackageNames": [
